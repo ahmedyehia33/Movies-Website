@@ -1,0 +1,142 @@
+.selected-movie-page{
+                    margin-left:auto;
+                    padding-left: 1rem;
+                    box-sizing: border-box;
+                    min-height:90%;
+                    
+}
+
+.movie-details-header{
+                        display: grid;
+                        grid-template-columns: 2fr 1fr;
+                        align-items: baseline;
+                        gap:40%;
+                        width:100%;
+                        margin-top: 2rem;
+                        padding: 1rem 2rem; 
+                        color: aliceblue;
+                        margin-left: auto;
+                        background: linear-gradient(to right, #212529, #948484);
+                        text-align: center;
+                        border-radius: 10px;
+}
+.rate{
+        font-size: 1.5rem;
+        display:flex;
+        min-height: 100%;
+        align-items: baseline;
+}
+.fa-star{
+            color:rgb(241, 241, 13);
+}
+.title h4{
+            font-size: 2rem;
+            font-weight: 600;
+}
+
+.image-container{
+                    height:80%;
+                    width:80%;
+                    min-width: 8rem;
+                    margin: 2rem auto;
+                    border-radius: 10px;
+                    border:1px solid white
+                    }
+
+.selected-movie-image{
+                        width:100%;
+                        object-position: center;
+                        object-fit: cover;
+                        height:100%;
+}
+.selected-movie-info{
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        justify-content: center;
+                        gap:1.5rem;
+                        height: auto;
+
+}
+.categories p {
+                width:6rem;
+                height: auto;
+                background: linear-gradient(to right, #212529, #948484);
+                margin-left: 0.5rem;
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                font-size: 1rem;
+                color:white;
+                border-radius: 10px;
+}
+.categories{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 1rem;
+}
+
+.description{
+             width:auto;
+             
+             justify-self: center;
+             height: auto;
+             min-height: 15rem;
+             background: linear-gradient(to right, #212529, #948484);
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             border-radius: 10px;
+             color:white;
+             margin-left: auto;
+             padding: 1rem;
+
+}
+
+.imdb-link{
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+            align-items: center;
+            width:20%;
+            min-width: 3rem;
+            height: auto;
+            padding:0.5rem;
+            margin-left: auto;
+            margin-right: auto;
+            background: linear-gradient(to right, #212529, #948484);
+            color:white;
+            border-radius: 10px;
+            margin-top: 1rem;
+}
+.more-info{
+            color:White;
+}
+
+.favorited{
+        color:red;
+}
+@media screen and (max-width: 650px){
+    .movie-details-header{
+                            display: flex;
+                            flex-wrap: wrap;
+                            align-items: center;
+                            font-size: 1rem;
+                            justify-content: center;
+                            font-size: 1rem;
+                            width:100%;
+                            margin-top: 1rem;
+                            padding: 0.5rem 1rem; 
+                            color: aliceblue;
+                           
+                            }
+.selected-movie-info{
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        
+                    }
+.selected-movie-page{
+                        margin: 0.5rem 1rem;
+}
+}
