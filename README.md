@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+#before trying `npm start` make sure to run the moviesDB.json file inside DB folder using `npx json-server moviesDB.json` to be hosted on port 'http://localhost:3000' then run `npm start` on any other port to fetich the data from the Database...
+
 ## Available Scripts
 
 In the project directory, you can run:
